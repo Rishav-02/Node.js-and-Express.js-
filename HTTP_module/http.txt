@@ -1,0 +1,5 @@
+Streaming can be done by both stream module and Http module.
+
+A Node.js stream can help process large files, larger than the free memory of your computer, since it processes the data in small chunks.
+
+The big advantage of streams is that you can process large files (bigger than the available memory). In general, reading a large file into memory is an inefficient use of resources.

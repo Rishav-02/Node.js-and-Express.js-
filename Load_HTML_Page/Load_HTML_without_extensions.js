@@ -9,7 +9,7 @@ app.get("", (req, res) => {
   res.sendFile(`${publicPath}/index.html`);//index.html is default page run same in both
 });
 
-//To Remove extension at run time and to load file from get method then use senFile().
+//To Remove extension at run time and to load file from get method then use sendFile().
 app.get("/abt", (req, res) => {
   res.sendFile(`${publicPath}/about.html`);
 });

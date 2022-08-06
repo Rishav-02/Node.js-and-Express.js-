@@ -1,0 +1,7 @@
+Streams are one of the fundamental concepts that power Node.js applications.
+
+They are a way to handle reading/writing files, network communications, or any kind of end-to-end information exchange in an efficient way.
+
+Streams are not a concept unique to Node.js. They were introduced in the Unix operating system decades ago, and programs can interact with each other passing streams through the pipe operator (|).
+
+For example, in the traditional way, when you tell the program to read a file, the file is read into memory, from start to finish, and then you process it.

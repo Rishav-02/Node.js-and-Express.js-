@@ -1,0 +1,1 @@
+This writeFileSync() is a synchronous function of Filesystem Module.

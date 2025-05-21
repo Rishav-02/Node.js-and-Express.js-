@@ -9,15 +9,15 @@
   "author": "Rishav Sinha",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.0",
-    "chalk": "^5.0.1",
+    "body-parser": "^1.20.3",
+    "chalk": "^5.4.1",
     "colors": "^1.4.0",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "mongodb": "^4.7.0",
-    "nodemon": "^2.0.19",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^4.17.2",
+    "nodemon": "^2.0.22",
     "request": "^2.88.2",
     "superheroes": "^3.0.0",
-    "supervillains": "^3.0.0"
+    "supervillains": "^3.1.0"
   }
 }

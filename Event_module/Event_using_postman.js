@@ -12,8 +12,7 @@ event.on("countAPI",()=>{
     console.log("event called",count);
 })
 
-//Route for allgenerate same.i.e "/","/search","/update" show "event called count".
-
+//Route for all generate same.i.e "/","/search","/update" show "event called count".
 app.get("/",(req,res)=>{
     res.send("API called");
     event.emit("countAPI");//event generate and call
@@ -24,6 +23,7 @@ app.get("/search",(req,res)=>{
     event.emit("countAPI");
 });
 
+// localhost:4000/update
 app.get("/update",(req,res)=>{
     res.send("API called");
     event.emit("countAPI");
